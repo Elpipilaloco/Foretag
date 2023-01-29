@@ -1,0 +1,118 @@
+ul li {
+  padding: 0 !important;
+}
+
+.menu {
+  position: fixed !important;
+  z-index: 10;
+  width: 100%;
+}
+
+.logo {
+  width: 50px;
+}
+
+.abajo {
+  background-color: #3b3b3baf;
+}
+
+.nav-lin {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  margin: 8px;
+  transition: 0.7s;
+}
+
+.nav-lin:hover {
+  color: #ca02c7;
+}
+
+.hr {
+  position: absolute;
+  width: 100%;
+  margin-top: 125px;
+  border-top: 0.5px solid #00000025;
+}
+
+.pad {
+  padding-top: 25px;
+}
+
+.container-fluid {
+  transition: 0.7s;
+}
+
+.negro {
+  color: #000;
+  cursor: pointer;
+}
+
+.fa-square-facebook {
+  font-size: 100px;
+  color: #3b5998;
+}
+
+.fa-square-facebook:hover {
+  color: #364f86;
+}
+
+.what {
+  display: flex;
+  justify-content: center;
+  background-color: #25d366;
+  border: none;
+  text-decoration: none;
+  margin-top: 100px;
+  color: #fff;
+  font-size: 30px;
+  width: 270px;
+  font-weight: 500;
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 40px;
+}
+
+.what:hover {
+  background-color: #26c560;
+}
+
+.fa-whatsapp {
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.links-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  margin-right: 200px;
+}
+
+@media screen and (max-width: 343px) {
+  .links-c {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 343px) and (max-width: 768px) {
+  .email {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .email {
+    margin-right: 30px;
+  }
+}
